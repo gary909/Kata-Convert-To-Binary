@@ -1,5 +1,7 @@
 function toBinary(n){
-    return n;
+    let myNum = n.toString(2); //convert to dec & string
+    myNum = parseInt(myNum); // convert back to number
+    return myNum;
 }
 
 console.log(toBinary(1)); // 1
